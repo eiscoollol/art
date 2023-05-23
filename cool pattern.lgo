@@ -1,0 +1,6 @@
+to pattenr
+ht print[Demo] repeat 10[arc2 180 100/10 arc2 180 100/10*5 lt 360/10] wait 300 ct cs rt 90 label [Number of iterations?] make "n readword cs repeat :n[arc2 180 100/:n arc2 180 100/:n*5 lt 360/:n]
+end
+
+Make "n 10
+Make "startup [pattenr]

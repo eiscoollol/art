@@ -1,0 +1,5 @@
+to project
+setpensize [200 200] px pu setxy -50 0 pd repeat 36[fd 10 rt 10] ht
+End
+
+Make "startup [project]

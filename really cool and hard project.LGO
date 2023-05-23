@@ -1,0 +1,6 @@
+to project
+ht make "red 0 repeat 15[repeat 4[lt 90 fd 100] pu rt 45 bk 131.4213562 setfc (list :red 0 0) fill fd 121.4213562 fill fd 10 lt 45 fd 40 rt 24 make "red :red+15 pd]
+End
+
+Make "red 225
+Make "startup [project]

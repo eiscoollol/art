@@ -1,0 +1,14 @@
+to draw
+print [This is how it would look like in default] project 100 wait 600 cs print [Type in the size you want!] project readword print [Done!]
+End
+
+to project :howBig
+ht repeat 20[square :howBig+repcount*10 rt repcount] pu home pd
+End
+
+to square :n
+pu fd :n/2 pd rt 90 fd :n/2 rt 90 fd :n rt 90 fd :n rt 90 fd :n rt 90 fd :n/2 lt 90 pu bk :n/2 pd
+End
+
+Make "num 1000
+Make "startup [draw]

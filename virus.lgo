@@ -1,0 +1,5 @@
+to virus
+ht print[setpensize[3 3] setfloodcolor[0 255 0] circle 100 fill repeat 18[pu fd 100 pd fd 25 pu fd 15 pd circle 15 fill pu bk 140 pd rt 20]] setpensize[3 3] setfloodcolor[0 255 0] setfloodcolor[0 255 0] circle 100 fill repeat 18[pu fd 100 pd fd 25 pu fd 15 pd circle 15 fill pu bk 140 pd rt 20]
+end
+
+Make "startup [virus]

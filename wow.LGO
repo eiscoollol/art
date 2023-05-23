@@ -1,0 +1,5 @@
+to project
+repeat 100[fd 100 rt 20 fd 50 lt 40 fd 50 pu home rt repcount*3.6 pd]
+End
+
+Make "startup [project]

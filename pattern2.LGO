@@ -1,0 +1,13 @@
+to draw
+print [This is how it would look like in default] project 100 100 wait 300 cs
+print [Choose how much circle then press Space key then type how big it is!] make "inputOfUser readlist make "theN item 1 :inputOfUser make "bro item 2 :inputOfUser project :theN :bro print [Done!]
+End
+
+to project :n :howBig
+repeat :n[circle :howBig-10+repcount*10]
+End
+
+Make "bro 100
+Make "inputofuser [0 100]
+Make "startup [draw]
+Make "then 0

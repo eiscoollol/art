@@ -1,0 +1,5 @@
+to project
+repeat 100[arc2 90 100 rt 90 arc2 -90 100 pu home pd rt repcount*3.6]
+end
+
+Make "startup [project]

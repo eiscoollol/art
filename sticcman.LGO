@@ -1,0 +1,5 @@
+to project
+lt 90 circle2 50 rt 90 bk 100 setxy 25 -200 setxy 0 -100 setxy -25 -200 pu setxy 0 -25 pd setxy 25 -100 setxy 0 -25 setxy -25 -100 pu home pd
+End
+
+Make "startup [project]

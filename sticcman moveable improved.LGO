@@ -1,0 +1,5 @@
+to project
+lt 90 circle2 50 rt 90 bk 100 rt 90 rt 75.96375653 fd 103.0776406 bk 103.0776406 seth 0 lt 90 lt 75.96375653 fd 103.0776406 bk 103.0776406 seth 0 fd 75 rt 90 rt 71.56505118 fd 79.0569415 bk 79.0569415 seth 0 lt 90 lt 71.56505118 fd 79.0569415 bk 79.0569415 seth 0 fd 25
+end
+
+Make "startup [project]
